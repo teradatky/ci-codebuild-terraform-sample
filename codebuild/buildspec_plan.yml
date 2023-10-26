@@ -2,7 +2,7 @@ version: 0.2
 
 env:
   variables:
-    TFDIR: "terraform"
+    TFDIR: "environments"
     TFNCONF: "codebuild/tfnotify.yml"
     TITLE: "Terraform Plan"
     MSG: "Plan detail via tfnotify"
