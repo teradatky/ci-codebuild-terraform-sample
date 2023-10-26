@@ -21,7 +21,7 @@ terraform:
       </pre></code></details>
   apply:
     template: |
-      {{ .Title }}
+      {{ .Title }} <sup>[CI link]( {{ .Link }} )</sup>
       {{ .Message }}
       {{if .Result}}
       <pre><code>{{ .Result }}
