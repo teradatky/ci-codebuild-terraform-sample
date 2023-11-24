@@ -9,7 +9,7 @@ notifier:
 terraform:
   plan:
     template: |
-      {{ .Title }} <sup>[CI link]( {{ .Link }} )</sup>
+      {{ .Title }} <sup>[CI link(Open CodeBuild Console)]( {{ .Link }} )</sup>
       {{ .Message }}
       {{if .Result}}
       <pre><code>{{ .Result }}
@@ -21,7 +21,7 @@ terraform:
       </pre></code></details>
   apply:
     template: |
-      {{ .Title }} <sup>[CI link]( {{ .Link }} )</sup>
+      {{ .Title }} <sup>[CI link(Open CodeBuild Console)]( {{ .Link }} )</sup>
       {{ .Message }}
       {{if .Result}}
       <pre><code>{{ .Result }}
