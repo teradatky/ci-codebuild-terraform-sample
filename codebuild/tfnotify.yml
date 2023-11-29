@@ -5,7 +5,7 @@ notifier:
     token: $GITHUB_TOKEN
     repository:
       owner: "teradatky"
-      name: "ci-codebuild-terraform-20231026"
+      name: "ci-codebuild-terraform-sample"
 terraform:
   plan:
     template: |
